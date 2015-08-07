@@ -1,0 +1,29 @@
+FONTLOG
+Vayalar, Kalyani, Malabar - NLCI Malayalam fonts
+================================================
+
+This file provides detailed information on the NLCI Malayalam fonts.
+This information should be distributed along with the NLCI Malayalam fonts and any derivative works.
+
+Basic Font Information
+----------------------
+
+Pan Malayalam font designed to support all the languages using the Malayalam script.
+
+ChangeLog
+---------
+(This should list both major and minor changes, most recent first.)
+
+30 Jun 2015 (Dev NLCI) NLCI Malayalam fonts version 0.100
+- Latin glyphs are from Charis SIL (http://scripts.sil.org/CharisSILfont)
+
+Acknowledgements
+----------------
+(If you make modifications be sure to add your
+name (N), email (E), web-address (W) and description (D).
+This list is sorted by last name in alphabetical order.)
+
+N: Dev NLCI
+E: dev@nlife.in
+W: http://www.nlci.in/fonts/
+D: NLCI designers and font engineers

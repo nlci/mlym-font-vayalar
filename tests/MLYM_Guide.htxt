@@ -1,0 +1,60 @@
+%============declarations============================
+\font\p="[/home/benjamin/work/script-mlym/fonts/vayalar/build/CharisSILR.ttf]" at 12pt
+\font\h="[/home/benjamin/work/script-mlym/fonts/vayalar/build/vayalar.ttf]" at 18pt 
+\font\hh="[/home/benjamin/work/script-mlym/fonts/vayalar/build/CharisSILR.ttf]" at 15pt 
+\font\tr="[/home/benjamin/work/script-mlym/fonts/vayalar/build/Rachana_w02.ttf]/ICU:script=mlym" at 12pt
+\font\rf="[/home/benjamin/work/script-mlym/fonts/vayalar/build/vayalar.ttf]/ICU:script=mlym" at 12pt
+%==========end of declarations=======================
+\p
+The Malayalam script (Malayalam: \tr മലയാളലിപി, \p Malayāḷalipi, [mɐləjaːɭɐ lɪβɪ]) is a Brahmic script used commonly to write the Malayalam language—which is the principal language of the Indian state of Kerala, spoken by 36 million people in the world. Like many other Indic scripts, it is an abugida, or a writing system that is partially “alphabetic” and partially syllable-based. The modern Malayalam alphabet has 13 vowel letters, 36 consonant letters, and a few other symbols. Konkani, which actually means two individual languages (ISO 639-3: knn and gom),[clarification needed] is also sometimes written in the Malayalam script, though relatively rarely. The script is also used to write several minority languages such as Paniya, Betta Kurumba, and Ravula. The Malayalam language itself was historically written in several different scripts. Even today it is sometimes written in Arabi Malayalam, a variant form of the Arabic script, mainly by Muslims in Singapore and Malaysia.
+\h
+Characteristics
+\p
+The basic characters can be classified as follows: (there are many)
+	* Vowels (\tr സ്വരം, \p svaram)
+		- Independent vowel letters
+		- Dependent vowel signs
+	* Consonant letters (\tr വ്യഞ്ജനം, \p vyañjanam)
+An independent vowel letter is used as the first letter of a word that begins with a vowel. A consonant letter, despite its name, does not represent a pure consonant, but represents a consonant + a short vowel /a/ by default. For example, \tr ക \p is the first consonant letter of the Malayalam alphabet, which represents /ka/, not a simple /k/. A vowel sign is a diacritic attached to a consonant letter to indicate that the consonant is followed by a vowel other than /a/. If the following vowel is /a/, no vowel sign is needed. The phoneme /a/ that follows a consonant by default is called an inherent vowel. In Malayalam, its phonetic value is unrounded [ɐ],[6] or [ə] as an allophone. To denote a pure consonant sound not followed by a vowel, a special diacritic virama is used to cancel the inherent vowel. The following are examples where a consonant letter is used with or without a diacritic.
+\tr കി ki = ക ka + ി vowel sign i
+കു ku = ക ka + ു vowel sign u
+കൈ kai = ക ka + ൈ vowel sign ai
+ക് k = ക ka + ് virama
+ക ka = consonant letter ക ka itself, with no vowel sign
+\p Malayalam alphabet is unicase, or does not have a case distinction. It is written from left to right, but certain vowel signs are attached to the left (the opposite direction) of a consonant letter that it logically follows. In the word \tr കേരളം \p(Kēraḷam), the vowel sign \tr േ \p(ē) visually appears in the leftmost position, though the vowel ē logically follows the consonant k.
+
+\h Orthography reform
+\p In 1969–1971 and in 1981, the Government of Kerala reformed the orthography of Malayalam. In the traditional orthography, certain consonants followed by u, ū, or r̥ are represented by special glyphs (consonant-vowel ligatures), where the corresponding basic consonant letter is transformed irregularly. For example:
+\rf
+ക ka \p→ \tr കു ku
+ന na \p→ \tr നു nu
+ശ \p śa  → \tr ശു \p śu
+\rf
+This kind of irregular glyph was simplified in the new orthography, where a vowel sign is always a separate symbol, never fused with the preceding letter:
+ക ka \p→ \rf കു ku
+ന na \p→ \rf നു nu
+ശ \p śa → \rf ശു \p śu
+\rf
+Also, most of traditional consonant-consonant ligatures, especially less common ones only used to write words of Sanskrit origin, were split into non-ligated forms. For example:
+ഗ് g + ദ da =  ഗ്ദ gda (Traditional: \tr ഗ്ദ \rf )
+ല്‌ l + ത ta = ല്ത lta (Traditional: \tr ല്ത \rf )
+The new orthography, puthiya lipi (Malayalam: \rf പുതിയ ലിപി, \p putiya lipi), is now used commonly, but has not completely replaced the traditional system, pazhaya lipi (\rf പഴയ ലിപി, \p paḻaya lipi).
+\h Creating Unicode font for Malayalam
+\rf The Unicode codepage for Malayalam ranges from u+0D00 to u+0D7F. In order to create a font for the Malayalam language we need to fill these range with the appropriate Unicode characters. In addition to this, we will have to fill in other characters such as Conjuncts (ക്ക ത്ത etc.), Variant forms \tr (ന as in പ്ന, യ as in ര്യ, വ as in ത്വ etc.)
+\hh Vowels (Svaram)
+\rf അ ആ ഇ ഈ ഉ ഊ എ ഏ ഐ ഒ ഓ ഔ അം  അഃ
+\hh Vowel Matra
+\rf ക്  ക കാ കി കീ കു കെ കേ കൈ കൊ കോ കൗ കം  കഃ
+\hh Consonants
+\rf ക ഖ ഗ ഘ ങ
+ച ഛ ജ ഝ ഞ
+ട ഠ ഡ ഢ ണ
+ത ഥ ദ ധ ന
+പ ഫ ബ ഭ മ
+യ ര ല വ ശ ഷ സ ഹ ള ഴ റ 
+\hh Malayalam chillu
+\rf ക്‍ ണ്‍ ന്‍ ര്‍ ല്‍ ള്‍ 
+\hh Conjuncts
+\rf ന്ന ച്ച ജ്ജ ജ്ഞ ഹ്മ ഹ്ന ക്ക ക്ഷ ക്ത ഗ്മ ഗ്ന ഗ്ദ ല്ല ള്ള മ്മ മ്പ ന്ന ന്‍റ ന്ത    ദ്ധ ദ്ധ്മ ദ്ധ്മൃ ധ്മ ധ്ന വ്ല വ്വ യ്ച യ്ക യ്ക്ക യ്ന യ്പ യ്ത്ത യ്യ ക്യ ശ്ച ശ്ല ശ്ന ശ്ശ ഴ്ച ഴ്ക്ക ഴ്ക  ഴ്മ ഴ്ന ഴ്ന്ന ഴ്പ ഴ്സ ഴ്ത ഴ്വ ന്ദ ന്ധ ക്‍  ങ്ങ  ണ്മ  ണ്ഡ  ഞ്ജ ഞ്ച ഞ്ഛ ഞ്ഞ പ്ല പ്ലൂ പ്ന പ്പ പ്ഫ പ്സ പ്ട പ്ത ഫ്ക പ്ല ഫ്മ ഫ്ന ഫ്പ ഫ്സ ഫ്ട ഫ്ത  ബ്ജ ബ്ഗ ബ്ബ ബ്ഭ ബ്ദ രു ര്ര റ്റ ഫ്റ്റ സ്ക സ്ഖ സ്ല സ്ലൂ സ്മ സ്ന സ്പ സ്ഫ സ്റ്റ സ്സ സ്ട സ്ത സ്ഥ ഷ്ക ഷ്മ ഷ്ണ ഷ്പ ഷ്ഫ ഷ്ട ഷ്ഠ ട്ട ഡ്മ ത്ല ത്മ ത്ന ത്ഭ ത്സ ത്സ്മ ത്ത ത്ഥ ഥ്മ ഥ്ന ദ്ദ ദ്ധ ക്ഷ ക്ത ഗ്മ ഗ്ന ഗ്ദ ല്ല ള്ള  മ്മ  മ്പ ന്ന ന്ത 
+\hh Sub forms
+\rf ഹ്ക ഹ്ല ക്ല സ്പ സ്മ സ്ന സ്റ്റ സ്ട 
