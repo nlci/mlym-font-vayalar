@@ -10,9 +10,10 @@ UnderlinePosition: -290
 UnderlineWidth: 20
 Ascent: 800
 Descent: 200
+InvalidEm: 0
 LayerCount: 2
-Layer: 0 0 "Back"  1
-Layer: 1 0 "Fore"  0
+Layer: 0 0 "Back" 1
+Layer: 1 0 "Fore" 0
 XUID: [1021 290 1188396590 12797644]
 FSType: 0
 OS2Version: 0
@@ -52,20 +53,20 @@ OS2StrikeYPos: 259
 OS2Vendor: 'Alts'
 OS2CodePages: 00000000.00000000
 OS2UnicodeRanges: 80800003.00002000.00000000.00000000
-Lookup: 4 0 0 "'akhn' Akhand in Malay+AQEA-lam lookup 0"  {"'akhn' Akhand in Malay+AQEA-lam lookup 0 subtable"  } ['akhn' ('mlym' <'dflt' > ) ]
-Lookup: 4 0 0 "'pref' Pre Base Forms lookup 9"  {"'pref' Pre Base Forms lookup 9-1"  } ['pref' ('DFLT' <'dflt' > 'mly2' <'dflt' > 'mlym' <'dflt' > ) ]
-Lookup: 3 0 0 "'rphf' Reph Form in Malay+AQEA-lam lookup 5"  {"'rphf' Reph Form in Malay+AQEA-lam lookup 5-1"  } ['rphf' ('mlym' <'dflt' > ) ]
-Lookup: 4 0 0 "'half' Half Forms lookup 6"  {"'half' Chillu"  } ['half' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'latn' <'dflt' > 'mly2' <'dflt' > 'mlym' <'dflt' > ) ]
-Lookup: 4 0 0 "'blwf' Below Base Forms lookup 8"  {"'blwf' Below Base Forms lookup 8-1"  } ['blwf' ('DFLT' <'dflt' > 'mly2' <'dflt' > 'mlym' <'dflt' > ) ]
-Lookup: 4 0 0 "'blws' Below Base Substitutions lookup 8"  {"'blws' Sub forms"  } ['blws' ('DFLT' <'dflt' > 'mly2' <'dflt' > 'mlym' <'dflt' > ) ]
-Lookup: 4 0 0 "'blws' Below Base Substitutions lookup 9"  {"'blws' Below Base Substitutions lookup 9-1"  } ['blws' ('DFLT' <'dflt' > 'mly2' <'dflt' > 'mlym' <'dflt' > ) ]
-Lookup: 4 0 0 "'pstf' Post Base Substitutions in Malay+AQEA-lam lookup 1"  {"'pstf' Post Base Substitutions in Malay+AQEA-lam lookup 1 subtable"  } ['pstf' ('mlym' <'dflt' > ) ]
-Lookup: 2 0 0 "'psts' Post Base Substitutions in Malay+AQEA-lam lookup 3"  {"'psts' Post Base Substitutions in Malay+AQEA-lam lookup 3-1"  } ['psts' ('mlym' <'dflt' > ) ]
-Lookup: 4 0 0 "'haln' Halant Forms in Malay+AQEA-lam lookup 2"  {"'haln' Halant Forms in Malay+AQEA-lam lookup 2 subtable"  } ['haln' ('mlym' <'dflt' > ) ]
-Lookup: 260 0 0 "'abvm' Above Base Mark lookup 3"  {"'abvm' Above Base Mark lookup 3-1"  } ['abvm' ('DFLT' <'dflt' > 'mly2' <'dflt' > 'mlym' <'dflt' > ) ]
-Lookup: 260 0 0 "'blwm' Below Base Mark lookup 4"  {"'blwm' Below Base Mark lookup 4-1"  } ['blwm' ('DFLT' <'dflt' > 'mly2' <'dflt' > 'mlym' <'dflt' > ) ]
-Lookup: 258 0 0 "Crn_Right"  {"Crn_Right-1" [150,15,0] } []
-Lookup: 260 0 0 "'abvm' Above Base Mark in Malay+AQEA-lam lookup 0"  {"'abvm' Above Base Mark in Malay+AQEA-lam lookup 0-1"  } ['abvm' ('DFLT' <'dflt' > 'mlym' <'dflt' > ) ]
+Lookup: 4 0 0 "'akhn' Akhand in Malay+AQEA-lam lookup 0" { "'akhn' Akhand in Malay+AQEA-lam lookup 0 subtable"  } ['akhn' ('mlym' <'dflt' > ) ]
+Lookup: 4 0 0 "'pref' Pre Base Forms lookup 9" { "'pref' Pre Base Forms lookup 9-1"  } ['pref' ('DFLT' <'dflt' > 'mly2' <'dflt' > 'mlym' <'dflt' > ) ]
+Lookup: 3 0 0 "'rphf' Reph Form in Malay+AQEA-lam lookup 5" { "'rphf' Reph Form in Malay+AQEA-lam lookup 5-1"  } ['rphf' ('mlym' <'dflt' > ) ]
+Lookup: 4 0 0 "'half' Half Forms lookup 6" { "'half' Chillu"  } ['half' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'latn' <'dflt' > 'mly2' <'dflt' > 'mlym' <'dflt' > ) ]
+Lookup: 4 0 0 "'blwf' Below Base Forms lookup 8" { "'blwf' Below Base Forms lookup 8-1"  } ['blwf' ('DFLT' <'dflt' > 'mly2' <'dflt' > 'mlym' <'dflt' > ) ]
+Lookup: 4 0 0 "'blws' Below Base Substitutions lookup 8" { "'blws' Sub forms"  } ['blws' ('DFLT' <'dflt' > 'mly2' <'dflt' > 'mlym' <'dflt' > ) ]
+Lookup: 4 0 0 "'blws' Below Base Substitutions lookup 9" { "'blws' Below Base Substitutions lookup 9-1"  } ['blws' ('DFLT' <'dflt' > 'mly2' <'dflt' > 'mlym' <'dflt' > ) ]
+Lookup: 4 0 0 "'pstf' Post Base Substitutions in Malay+AQEA-lam lookup 1" { "'pstf' Post Base Substitutions in Malay+AQEA-lam lookup 1 subtable"  } ['pstf' ('mlym' <'dflt' > ) ]
+Lookup: 2 0 0 "'psts' Post Base Substitutions in Malay+AQEA-lam lookup 3" { "'psts' Post Base Substitutions in Malay+AQEA-lam lookup 3-1"  } ['psts' ('mlym' <'dflt' > ) ]
+Lookup: 4 0 0 "'haln' Halant Forms in Malay+AQEA-lam lookup 2" { "'haln' Halant Forms in Malay+AQEA-lam lookup 2 subtable"  } ['haln' ('mlym' <'dflt' > ) ]
+Lookup: 260 0 0 "'abvm' Above Base Mark lookup 3" { "'abvm' Above Base Mark lookup 3-1"  } ['abvm' ('DFLT' <'dflt' > 'mly2' <'dflt' > 'mlym' <'dflt' > ) ]
+Lookup: 260 0 0 "'blwm' Below Base Mark lookup 4" { "'blwm' Below Base Mark lookup 4-1"  } ['blwm' ('DFLT' <'dflt' > 'mly2' <'dflt' > 'mlym' <'dflt' > ) ]
+Lookup: 258 0 0 "Crn_Right" { "Crn_Right-1" [150,15,0] } []
+Lookup: 260 0 0 "'abvm' Above Base Mark in Malay+AQEA-lam lookup 0" { "'abvm' Above Base Mark in Malay+AQEA-lam lookup 0-1"  } ['abvm' ('DFLT' <'dflt' > 'mlym' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
 TtTable: prep
@@ -95,33 +96,34 @@ ShortTable: maxp 16
   3
   2
 EndShort
-LangName: 1033 "" "" "Normal" "NLCI:MAL Vayalar Normal" "" "1.0 Tue Dec 19 11:44:39 1995" 
+LangName: 1033 "" "" "Normal" "NLCI:MAL Vayalar Normal" "" "1.0 Tue Dec 19 11:44:39 1995"
 Encoding: Custom
+Compacted: 1
 UnicodeInterp: none
 NameList: Adobe Glyph List
-DisplaySize: -96
+DisplaySize: -48
 AntiAlias: 1
-FitToEm: 1
-WinInfo: 91 13 5
+FitToEm: 0
+WinInfo: 78 26 8
 BeginPrivate: 0
 EndPrivate
 Grid
-174 -700 m 0
-94 -700 m 0
+174 -700 m 1024
+94 -700 m 1024
 -1000 -34 m 0,4,-1
- 2000 -34 l 0
+ 2000 -34 l 1024
 -1000 600 m 0,6,-1
- 2000 600 l 0
+ 2000 600 l 1024
 -1000 -44 m 0,8,-1
- 2000 -44 l 4
+ 2000 -44 l 1028
 -1000 -404 m 0,10,-1
- 2000 -404 l 0
+ 2000 -404 l 1024
 -738 1300 m 0,12,-1
- -738 -700 l 0
+ -738 -700 l 1024
 -510 1300 m 0,14,-1
- -510 -700 l 0
+ -510 -700 l 1024
 EndSplineSet
-AnchorClass2: "blwm"  "'blwm' Below Base Mark lookup 4-1" "abvm"  "'abvm' Above Base Mark lookup 3-1" 
+AnchorClass2: "blwm" "'blwm' Below Base Mark lookup 4-1" "abvm" "'abvm' Above Base Mark lookup 3-1" 
 BeginChars: 266 265
 
 StartChar: .notdef
@@ -2944,7 +2946,7 @@ SplineSet
  167.818 -325.839 258 -266.105 258 -157 c 0xf4
 EndSplineSet
 Ligature2: "'pstf' Post Base Substitutions in Malay+AQEA-lam lookup 1 subtable" ya vir
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: pa_vir_pa
@@ -2987,7 +2989,7 @@ SplineSet
  275.195 347 359 282.081 359 188 c 0xdd80
 EndSplineSet
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 0 subtable" pa vir pa
-LCarets2: 2 0 0 
+LCarets2: 2 0 0
 EndChar
 
 StartChar: lla_vir_U0D33
@@ -3661,7 +3663,7 @@ SplineSet
  206.038 57.9938 210.52 176.692 213 292 c 1
  114.301 292 46 262.353 46 173 c 0
 EndSplineSet
-Kerns2: 221 -400 "Crn_Right-1"  220 -400 "Crn_Right-1"  219 -400 "Crn_Right-1"  217 -400 "Crn_Right-1"  216 -400 "Crn_Right-1" 
+Kerns2: 221 -400 "Crn_Right-1" 220 -400 "Crn_Right-1" 219 -400 "Crn_Right-1" 217 -400 "Crn_Right-1" 216 -400 "Crn_Right-1"
 EndChar
 
 StartChar: ka.sub
@@ -3702,7 +3704,7 @@ SplineSet
  -701 -322.314 -692.606 -362 -656 -362 c 0
  -629 -362 -612.846 -325.198 -611 -220 c 1
 EndSplineSet
-LCarets2: 1 0 
+LCarets2: 1 0
 Ligature2: "'blws' Sub forms" vir ka
 EndChar
 
@@ -3756,7 +3758,7 @@ SplineSet
  112.301 297 44 267.353 44 178 c 0
 EndSplineSet
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 0 subtable" ka vir ka
-LCarets2: 2 0 0 
+LCarets2: 2 0 0
 EndChar
 
 StartChar: ka_vir_ssa
@@ -3816,7 +3818,7 @@ SplineSet
  113.301 298 45 268.353 45 179 c 0
 EndSplineSet
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 0 subtable" ka vir ssa
-LCarets2: 2 0 0 
+LCarets2: 2 0 0
 EndChar
 
 StartChar: kha
@@ -3834,7 +3836,7 @@ SplineSet
  106 296 72.6667 275.667 46 235 c 1
  46 146.93 88.675 61 169 61 c 0
  236.2 61 253 125.2 253 168 c 0xbf
-467 35 m 0
+467 35 m 1024
 375 31 m 1
  434.058 94.6895 475.128 159.265 478 277 c 1
  478 438.138 412.291 536 259 536 c 0
@@ -3950,7 +3952,7 @@ SplineSet
  632.078 599 680.057 563.133 697 511 c 1
 EndSplineSet
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 0 subtable" ga vir na
-LCarets2: 2 0 0 
+LCarets2: 2 0 0
 EndChar
 
 StartChar: ga_vir_da
@@ -4037,7 +4039,7 @@ SplineSet
  734.924 286.012 773 243.432 773 175 c 0xfa
 EndSplineSet
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 0 subtable" ga vir da
-LCarets2: 2 0 0 
+LCarets2: 2 0 0
 EndChar
 
 StartChar: ga_vir_ma
@@ -4075,7 +4077,7 @@ SplineSet
  364 53 l 1
 EndSplineSet
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 0 subtable" ga vir ma
-LCarets2: 2 0 0 
+LCarets2: 2 0 0
 EndChar
 
 StartChar: gha
@@ -4211,7 +4213,7 @@ SplineSet
  105.301 294 37 264.353 37 175 c 0
 EndSplineSet
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 0 subtable" nga vir ka
-LCarets2: 2 0 0 
+LCarets2: 2 0 0
 EndChar
 
 StartChar: nga_vir_nga
@@ -4274,7 +4276,7 @@ SplineSet
  392 -2 355 129.287 355 253 c 0
 EndSplineSet
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 0 subtable" nga vir nga
-LCarets2: 2 0 0 
+LCarets2: 2 0 0
 EndChar
 
 StartChar: ca
@@ -4371,12 +4373,12 @@ SplineSet
  -560.68 -277.96 -563 -260.2 -563 -243 c 0
  -563 -203.4 -542.2 -144 -459 -144 c 0
  -379.269 -144 -337 -191.431 -337 -254 c 0
--1 -1 m 1
+-1 -1 m 1025
 -1 -3 m 1
  -1 -1 l 1
  -1 -3 l 1
 EndSplineSet
-LCarets2: 1 0 
+LCarets2: 1 0
 Ligature2: "'blws' Sub forms" vir ca
 EndChar
 
@@ -4415,7 +4417,7 @@ SplineSet
  480.413 110.954 457.843 59.2636 419 42 c 1
 EndSplineSet
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 0 subtable" ca vir ca
-LCarets2: 2 0 0 
+LCarets2: 2 0 0
 EndChar
 
 StartChar: cha
@@ -4599,7 +4601,7 @@ SplineSet
  242.65 219 98 200.8 98 128 c 0xffbf80
 EndSplineSet
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 0 subtable" ja vir ja
-LCarets2: 2 0 0 
+LCarets2: 2 0 0
 EndChar
 
 StartChar: ja_vir_nya
@@ -4679,7 +4681,7 @@ SplineSet
  787.553 -144.367 744.768 -203 644 -203 c 0x9bbdf0
 EndSplineSet
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 0 subtable" ja vir nya
-LCarets2: 2 0 0 
+LCarets2: 2 0 0
 EndChar
 
 StartChar: jha
@@ -4882,7 +4884,7 @@ SplineSet
  840.358 541.447 820.357 536.75 799 531 c 1
 EndSplineSet
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 0 subtable" nya vir ca
-LCarets2: 2 0 0 
+LCarets2: 2 0 0
 EndChar
 
 StartChar: nya_vir_cha
@@ -5012,7 +5014,7 @@ SplineSet
  595.732 359.273 629.3 456.3 695 522 c 1
 EndSplineSet
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 0 subtable" nya vir cha
-LCarets2: 2 0 0 
+LCarets2: 2 0 0
 EndChar
 
 StartChar: tta
@@ -5122,7 +5124,7 @@ SplineSet
  -3 1 l 1
  -1 -1 l 1
 EndSplineSet
-LCarets2: 1 0 
+LCarets2: 1 0
 Ligature2: "'blws' Sub forms" vir tta
 EndChar
 
@@ -5188,7 +5190,7 @@ SplineSet
  378.342 336 489 317.124 489 198 c 0xfa
 EndSplineSet
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 0 subtable" tta vir tta
-LCarets2: 2 0 0 
+LCarets2: 2 0 0
 EndChar
 
 StartChar: ttha
@@ -5210,7 +5212,7 @@ SplineSet
  147.833 569.833 218.333 599 301 599 c 260
  383.667 599 454.167 569.833 512.5 511.5 c 4
  570.833 453.167 600 382.667 600 300 c 260
-0 0 m 4
+0 0 m 1028
 516 300 m 4
  516 366 492.667 422.333 446 469 c 4
  399.333 515.667 344 539 278 539 c 4
@@ -5228,7 +5230,7 @@ SplineSet
  151.525 -4 1 121.235 1 300 c 256
  1 439.964 100.439 600.943 319.836 600.943 c 0
  453.893 600.943 599 474.319 599 300 c 256
-2 0 m 0
+2 0 m 1024
 277 539 m 0
  147.017 539 43 432.426 43 300 c 0
  43 164.558 149.631 61 277 61 c 0
@@ -5247,7 +5249,7 @@ AnchorPoint: "blwm" -438 -12 mark 0
 LayerCount: 2
 Back
 SplineSet
--630 -403.5 m 4,0,-1
+-630 -403.5 m 1028,0,-1
 -450 -49.5 m 260,1,-1
  -346.431 -49.5 -266 -129.953 -266 -228.5 c 260,4,-1
  -266 -327.263 -346.641 -407.5 -450 -407.5 c 260,7,-1
@@ -5261,7 +5263,7 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
--630 -403.5 m 0,0,-1
+-630 -403.5 m 1024,0,-1
 -450 -49.5 m 256,1,-1
  -346.431 -49.5 -266 -129.953 -266 -228.5 c 256,4,-1
  -266 -327.263 -346.641 -407.5 -450 -407.5 c 256,7,-1
@@ -5273,7 +5275,7 @@ SplineSet
  -534.495 -93.5 -599 -150.748 -599 -228.5 c 256,22,-1
  -599 -304.859 -538.566 -363.5 -464 -363.5 c 0,13,-1
 EndSplineSet
-LCarets2: 1 0 
+LCarets2: 1 0
 Ligature2: "'blws' Sub forms" vir ttha
 EndChar
 
@@ -5496,7 +5498,7 @@ SplineSet
  0 3 l 1
  2 1 l 1
 EndSplineSet
-LCarets2: 1 0 
+LCarets2: 1 0
 Ligature2: "'blws' Sub forms" vir ddha
 EndChar
 
@@ -5669,7 +5671,7 @@ SplineSet
  1 5 l 1
  3 3 l 1
 EndSplineSet
-LCarets2: 1 0 
+LCarets2: 1 0
 Ligature2: "'blws' Sub forms" vir nna
 EndChar
 
@@ -5779,7 +5781,7 @@ SplineSet
  42 103.231 98.4414 52.1377 147.079 52.1377 c 0
  183.901 52.1377 216.251 81.4229 216.251 140.173 c 0
 EndSplineSet
-LCarets2: 2 0 0 
+LCarets2: 2 0 0
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 0 subtable" nna vir tta
 EndChar
 
@@ -5885,7 +5887,7 @@ SplineSet
  707.121 596.756 782.527 564.086 794 510 c 1
 EndSplineSet
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 0 subtable" nna vir dda
-LCarets2: 2 0 0 
+LCarets2: 2 0 0
 EndChar
 
 StartChar: nna_vir_ma
@@ -5980,11 +5982,11 @@ SplineSet
  727.681 597 783.621 557.217 793 513 c 1
 EndSplineSet
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 0 subtable" nna vir ma
-LCarets2: 2 0 0 
+LCarets2: 2 0 0
 EndChar
 
-StartChar: nna_vir
-Encoding: 155 -1 155
+StartChar: chillunn
+Encoding: 155 3450 155
 Width: 1355
 Flags: HW
 HStem: -1 61<97.6364 202.951 1003.25 1106.54> 266 53<87.2537 184.614> 538 58<212.077 365.777 530.927 672.589 839.342 1014.33> 671 21G<938.667 960.644> 716 79<982.306 1114.44>
@@ -6087,7 +6089,6 @@ SplineSet
  1211.22 609.238 1186.05 557.567 1127 515 c 1
 EndSplineSet
 Ligature2: "'haln' Halant Forms in Malay+AQEA-lam lookup 2 subtable" nna vir zwj
-LCarets2: 2 0 0 
 EndChar
 
 StartChar: ta
@@ -6227,7 +6228,7 @@ SplineSet
  1 2 l 1
  3 0 l 1
 EndSplineSet
-LCarets2: 1 0 
+LCarets2: 1 0
 Ligature2: "'blws' Sub forms" vir ta
 EndChar
 
@@ -6334,7 +6335,7 @@ SplineSet
  814.66 336.104 863.036 445.979 940 511 c 1
 EndSplineSet
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 0 subtable" ta vir ta
-LCarets2: 2 0 0 
+LCarets2: 2 0 0
 EndChar
 
 StartChar: ta_vir_ma
@@ -6427,7 +6428,7 @@ SplineSet
  749 53 l 1
 EndSplineSet
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 0 subtable" ta vir ma
-LCarets2: 2 0 0 
+LCarets2: 2 0 0
 EndChar
 
 StartChar: ta_vir_tha
@@ -6516,7 +6517,7 @@ SplineSet
  1314.51 595.463 1436 533.921 1436 424 c 2
 EndSplineSet
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 0 subtable" ta vir tha
-LCarets2: 2 0 0 
+LCarets2: 2 0 0
 EndChar
 
 StartChar: ta_vir_na
@@ -6594,7 +6595,7 @@ SplineSet
  187.397 334.517 234.476 452.057 314.282 518.991 c 1
 EndSplineSet
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 0 subtable" ta vir na
-LCarets2: 2 0 0 
+LCarets2: 2 0 0
 EndChar
 
 StartChar: ta_vir_bha
@@ -6701,7 +6702,7 @@ SplineSet
  187.612 336.123 228.17 445.922 312.279 519 c 1
 EndSplineSet
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 0 subtable" ta vir bha
-LCarets2: 2 0 0 
+LCarets2: 2 0 0
 EndChar
 
 StartChar: ta_vir_sa
@@ -6790,7 +6791,7 @@ SplineSet
  227.396 10 188.996 128.8 188.996 238 c 0
 EndSplineSet
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 0 subtable" ta vir sa
-LCarets2: 2 0 0 
+LCarets2: 2 0 0
 EndChar
 
 StartChar: tha
@@ -6942,7 +6943,7 @@ SplineSet
  418.426 481.314 364.103 539 262 539 c 256xbe
 EndSplineSet
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 0 subtable" da vir da
-LCarets2: 2 0 0 
+LCarets2: 2 0 0
 EndChar
 
 StartChar: da_vir_dha
@@ -6991,7 +6992,7 @@ SplineSet
  246.429 135.692 269.079 161.147 317.667 172.968 c 1
 EndSplineSet
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 0 subtable" da vir dha
-LCarets2: 2 0 0 
+LCarets2: 2 0 0
 EndChar
 
 StartChar: dha
@@ -7133,7 +7134,7 @@ SplineSet
  287.745 410 l 1
 EndSplineSet
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 0 subtable" na vir ta
-LCarets2: 2 0 0 
+LCarets2: 2 0 0
 EndChar
 
 StartChar: na_vir_tha
@@ -7177,7 +7178,7 @@ SplineSet
  919.873 534.365 1016.43 595 1137.91 595 c 0
 EndSplineSet
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 0 subtable" na vir tha
-LCarets2: 2 0 0 
+LCarets2: 2 0 0
 EndChar
 
 StartChar: na_vir_na
@@ -7216,7 +7217,7 @@ SplineSet
  568.166 596.459 637.018 567.179 660.52 512 c 1
 EndSplineSet
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 0 subtable" na vir na
-LCarets2: 2 0 0 
+LCarets2: 2 0 0
 EndChar
 
 StartChar: na_vir_ma
@@ -7255,7 +7256,7 @@ SplineSet
  360.251 44 l 1
 EndSplineSet
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 0 subtable" na vir ma
-LCarets2: 2 0 0 
+LCarets2: 2 0 0
 EndChar
 
 StartChar: na_vir_da
@@ -7294,7 +7295,7 @@ SplineSet
  770.721 82.0664 704.822 -0.0820312 586.342 -0.0820312 c 0
 EndSplineSet
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 0 subtable" na vir da
-LCarets2: 2 0 0 
+LCarets2: 2 0 0
 EndChar
 
 StartChar: pa
@@ -7400,7 +7401,7 @@ SplineSet
  704.593 43 l 1
 EndSplineSet
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 0 subtable" ha vir ma
-LCarets2: 2 0 0 
+LCarets2: 2 0 0
 EndChar
 
 StartChar: pha
@@ -7569,7 +7570,7 @@ SplineSet
  910.001 0 l 1
 EndSplineSet
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 0 subtable" ba vir ba
-LCarets2: 2 0 0 
+LCarets2: 2 0 0
 EndChar
 
 StartChar: bha
@@ -7709,7 +7710,7 @@ SplineSet
  703.449 201.222 671.634 101.758 601.03 39 c 1
 EndSplineSet
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 0 subtable" ma vir pa
-LCarets2: 2 0 0 
+LCarets2: 2 0 0
 EndChar
 
 StartChar: ma_vir_ma
@@ -7755,7 +7756,7 @@ SplineSet
  331.788 598 430.397 566.034 470.988 495 c 1
 EndSplineSet
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 0 subtable" ma vir ma
-LCarets2: 2 0 0 
+LCarets2: 2 0 0
 EndChar
 
 StartChar: ya
@@ -7842,7 +7843,7 @@ SplineSet
 EndSplineSet
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 0 subtable" ya ya vir
 MultipleSubs2: "'psts' Post Base Substitutions in Malay+AQEA-lam lookup 3-1" ya vir_ya
-LCarets2: 2 0 0 
+LCarets2: 2 0 0
 EndChar
 
 StartChar: ra
@@ -8013,7 +8014,7 @@ SplineSet
  43.0568 180.762 87.1464 76.056 178.243 24 c 1
 EndSplineSet
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 0 subtable" rra vir rra
-LCarets2: 2 0 0 
+LCarets2: 2 0 0
 EndChar
 
 StartChar: rra_vir_rra.alt
@@ -8283,7 +8284,7 @@ SplineSet
  561.409 206.806 525.537 108.078 457.28 44 c 1
 EndSplineSet
 MultipleSubs2: "'psts' Post Base Substitutions in Malay+AQEA-lam lookup 3-1" va vir_va
-LCarets2: 2 0 0 
+LCarets2: 2 0 0
 EndChar
 
 StartChar: vir_va
@@ -8304,7 +8305,7 @@ SplineSet
  84 -192 l 1
 EndSplineSet
 Ligature2: "'pstf' Post Base Substitutions in Malay+AQEA-lam lookup 1 subtable" va vir
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: sha
@@ -8421,7 +8422,7 @@ SplineSet
  806.499 46 l 1x7fe0
 EndSplineSet
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 0 subtable" sha vir ca
-LCarets2: 2 0 0 
+LCarets2: 2 0 0
 EndChar
 
 StartChar: ssa
@@ -8587,7 +8588,7 @@ SplineSet
  990.342 172.399 962.621 86.5645 915.582 42 c 1
 EndSplineSet
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 0 subtable" sa vir tha
-LCarets2: 2 0 0 
+LCarets2: 2 0 0
 EndChar
 
 StartChar: na_vir_dha
@@ -8633,7 +8634,7 @@ SplineSet
 EndSplineSet
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 0 subtable" na vir dha
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 0 subtable" sa vir dha
-LCarets2: 2 0 0 
+LCarets2: 2 0 0
 EndChar
 
 StartChar: ha
@@ -8712,7 +8713,7 @@ SplineSet
  838.92 594 890.629 554.654 905.515 510 c 1
 EndSplineSet
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 0 subtable" ha vir na
-LCarets2: 2 0 0 
+LCarets2: 2 0 0
 EndChar
 
 StartChar: aamatra
@@ -9060,7 +9061,7 @@ EndSplineSet
 Ligature2: "'pref' Pre Base Forms lookup 9-1" ra vir
 Ligature2: "'pstf' Post Base Substitutions in Malay+AQEA-lam lookup 1 subtable" ra vir
 AlternateSubs2: "'rphf' Reph Form in Malay+AQEA-lam lookup 5-1" ra vir
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: rrvocalicvowel
@@ -9600,7 +9601,7 @@ SplineSet
 EndSplineSet
 Ligature2: "'half' Chillu" na vir zwj
 Ligature2: "'haln' Halant Forms in Malay+AQEA-lam lookup 2 subtable" na vir zwj
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: chillun_vir_rra
@@ -9652,7 +9653,7 @@ SplineSet
 EndSplineSet
 Ligature2: "'half' Chillu" ra vir zwj
 Ligature2: "'haln' Halant Forms in Malay+AQEA-lam lookup 2 subtable" ra vir zwj
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: chillul
@@ -9703,7 +9704,7 @@ SplineSet
  584.242 317.983 621.527 419.907 708.232 494 c 1
 EndSplineSet
 Ligature2: "'haln' Halant Forms in Malay+AQEA-lam lookup 2 subtable" la vir zwj
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: chillull
@@ -9746,7 +9747,7 @@ SplineSet
 EndSplineSet
 Ligature2: "'half' Chillu" lla vir zwj
 Ligature2: "'haln' Halant Forms in Malay+AQEA-lam lookup 2 subtable" lla vir zwj
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: ka_vir_ta
@@ -9803,7 +9804,7 @@ SplineSet
  824.386 539.526 740.542 439.756 736.002 296 c 1
 EndSplineSet
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 0 subtable" ka vir ta
-LCarets2: 2 0 0 
+LCarets2: 2 0 0
 EndChar
 
 StartChar: nya_vir_nya
@@ -9874,7 +9875,7 @@ SplineSet
  592.15 323.917 639.008 442.539 720.002 517 c 1
 EndSplineSet
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 0 subtable" nya vir nya
-LCarets2: 2 0 0 
+LCarets2: 2 0 0
 EndChar
 
 StartChar: zwj
@@ -10049,7 +10050,7 @@ Flags: HW
 LayerCount: 2
 Fore
 Refer: 174 -1 S 0.779359 0 0 0.615081 167.908 -403.964 2
-LCarets2: 1 0 
+LCarets2: 1 0
 Ligature2: "'blws' Sub forms" vir na_vir_na
 EndChar
 
