@@ -1,9 +1,9 @@
 %============declarations============================
-\font\p="[/home/benjamin/work/script-mlym/fonts/vayalar/build/CharisSILR.ttf]" at 12pt
-\font\h="[/home/benjamin/work/script-mlym/fonts/vayalar/build/vayalar.ttf]" at 18pt 
-\font\hh="[/home/benjamin/work/script-mlym/fonts/vayalar/build/CharisSILR.ttf]" at 15pt 
-\font\tr="[/home/benjamin/work/script-mlym/fonts/vayalar/build/Rachana_w02.ttf]/ICU:script=mlym" at 12pt
-\font\rf="[/home/benjamin/work/script-mlym/fonts/vayalar/build/vayalar.ttf]/ICU:script=mlym" at 12pt
+\font\p="[./MLYMVayalar-Regular.ttf]" at 12pt
+\font\h="[./MLYMVayalar-Regular.ttf]" at 18pt
+\font\hh="[./MLYMVayalar-Regular.ttf]" at 15pt
+\font\tr="[./MLYMVayalar-Regular.ttf]/ICU:script=mlym" at 12pt
+\font\rf="[./MLYMVayalar-Regular.ttf]/ICU:script=mlym" at 12pt
 %==========end of declarations=======================
 \p
 The Malayalam script (Malayalam: \tr മലയാളലിപി, \p Malayāḷalipi, [mɐləjaːɭɐ lɪβɪ]) is a Brahmic script used commonly to write the Malayalam language—which is the principal language of the Indian state of Kerala, spoken by 36 million people in the world. Like many other Indic scripts, it is an abugida, or a writing system that is partially “alphabetic” and partially syllable-based. The modern Malayalam alphabet has 13 vowel letters, 36 consonant letters, and a few other symbols. Konkani, which actually means two individual languages (ISO 639-3: knn and gom),[clarification needed] is also sometimes written in the Malayalam script, though relatively rarely. The script is also used to write several minority languages such as Paniya, Betta Kurumba, and Ravula. The Malayalam language itself was historically written in several different scripts. Even today it is sometimes written in Arabi Malayalam, a variant form of the Arabic script, mainly by Muslims in Singapore and Malaysia.
