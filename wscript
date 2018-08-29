@@ -8,9 +8,9 @@ STANDARDS='tests/reference'
 # set meta-information
 script='mlym'
 APPNAME='nlci-' + script
-VERSION='0.100'
-TTF_VERSION='0.100'
-COPYRIGHT='Copyright (c) 2009-2015, NLCI (http://www.nlci.in/fonts/)'
+VERSION='0.101'
+TTF_VERSION='0.101'
+COPYRIGHT='Copyright (c) 2009-2018, NLCI (http://www.nlci.in/fonts/)'
 
 DESC_SHORT='Malayalam Unicode font with OT support'
 DESC_LONG='''
