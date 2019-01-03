@@ -1,60 +1,107 @@
+#!/usr/bin/python
+# this is a smith configuration file
+
 # vayalar
 
-# set folder names
+# command line options
+opts = preprocess_args(
+    {'opt' : '-l'}, # build fonts from legacy for inclusion into final fonts
+    {'opt' : '-p'}, # do not run psfix on the final fonts
+    {'opt' : '-s'}  # only build a single font
+    )
+
+import os2
+
+# set the default output folders
 out='results'
-TESTDIR='tests'
+
+# locations of files needed for some tasks
+DOCDIR = ['documentation', 'web']
 STANDARDS='tests/reference'
 
 # set meta-information
 script='mlym'
 APPNAME='nlci-' + script
-VERSION='0.101'
-TTF_VERSION='0.101'
-COPYRIGHT='Copyright (c) 2009-2018, NLCI (http://www.nlci.in/fonts/)'
 
 DESC_SHORT='Malayalam Unicode font with OT support'
-DESC_LONG='''
-Pan Malayalam font designed to support all the languages using the Malayalam script.
-'''
 DESC_NAME='NLCI-' + script
 DEBPKG='fonts-nlci-' + script
+getufoinfo('source/Vayalar-Regular.ufo')
 
 # set test parameters
 TESTSTRING=u'\u0d15'
 
 # set fonts to build
-#faces = ('Vayalar', 'Kalyani', 'Malabar')
-#styles = ('-R', '-B', '-I', '-BI')
-#stylesName = ('Regular', 'Bold', 'Italic', 'Bold Italic')
+faces = ('Vayalar', 'Malabar') # Kalyani
+facesLegacy = ('vaya', 'mala') # kaly
+styles = ('-R', '-B', '-I', '-BI')
+stylesName = ('Regular', 'Bold', 'Italic', 'Bold Italic')
+stylesLegacy = ('', 'bd', 'i', 'bi')
 
-faces = ('Vayalar',)
-styles = ('-R',)
-stylesName = ('Regular',)
+if '-s' in opts:
+    faces = (faces[0],)
+    facesLegacy = (facesLegacy[0],)
+    styles = (styles[0],)
+    stylesName = (stylesName[0],)
+    stylesLegacy = (stylesLegacy[0],)
 
 # set build parameters
 fontbase = 'source/'
+archive = fontbase + 'archive/unhinted/'
+generated = 'generated/'
 tag = script.upper()
 
+panose = [2, 0, 0, 3]
+codePageRange = [0, 29]
+unicodeRange = [0, 1, 2, 3, 4, 5, 6, 7, 15, 23, 29, 31, 32, 33, 35, 38, 39, 40, 45, 57, 60, 62, 67, 69, 91]
+hackos2 = os2.hackos2(panose, codePageRange, unicodeRange)
+
+if '-l' in opts:
+    for f, fLegacy in zip(faces, facesLegacy):
+        for (s, sn, sLegacy) in zip(styles, stylesName, stylesLegacy):
+            font(target = process('ufo/' + f + '-' + sn.replace(' ', '') + '.ttf',
+                    cmd(hackos2 + ' ${DEP} ${TGT}'),
+                    name(f, lang='en-US', subfamily=(sn))
+                    ),
+                source = legacy(f + s + '.ttf',
+                                source = archive + fLegacy + sLegacy + '.ttf',
+                                xml = fontbase + 'vayalar_unicode.xml',
+                                params = '',
+                                noap = '')
+                )
+
+psfix = 'cp' if '-p' in opts else 'psfix'
+
+if '-l' in opts:
+    faces = list()
 for f in faces:
-    for (s, sn) in zip(styles, stylesName):
-        font(target = process(tag + f + '-' + sn.replace(' ', '') + '.ttf',
-                cmd('psfix ${DEP} ${TGT}'),
+    p = package(
+        appname = APPNAME + '-' + f.lower(),
+        version = VERSION,
+        docdir = DOCDIR # 'documentation'
+    )
+    for sn in stylesName:
+        snf = '-' + sn.replace(' ', '')
+        fontfilename = tag + f + snf
+        font(target = process(fontfilename + '.ttf',
+                #cmd(psfix + ' ${DEP} ${TGT}'),
                 name(tag + ' ' + f, lang='en-US', subfamily=(sn))
                 ),
-            source = fontbase + f + s + '.sfd',
-            sfd_master = fontbase + 'master.sfd',
-            opentype = internal(),
-            #graphite = gdl(fontbase + f + s + '.gdl',
+            source = fontbase + f + snf + '.ufo',
+            # opentype = fea(f + snf + '.fea',
+            #     master = fontbase + 'master.fea',
+            #     make_params = ''
+            #     ),
+            #graphite = gdl(generated + f + snf + '.gdl',
             #    master = fontbase + 'master.gdl',
-            #    make_params = '-p 1 -s 2 -l first',
-            #    params = '-d -v2'
+            #    make_params = '-p 1 -s 2',
+            #    params = '-e ' + f + snf + '_gdlerr.txt'
             #    ),
             #classes = fontbase + 'vayalar_classes.xml',
-            ap = f + s + '.xml',
-            version = TTF_VERSION,
-            copyright = COPYRIGHT,
-            license = ofl('Vayalar', 'Kalyani', 'Malabar', 'NLCI'),
-            woff = woff(),
-            script = 'mlym',
-            fret = fret(params = '-r')
+            #ap = generated + f + snf + '.xml',
+            version = VERSION,
+            #woff = woff('woff/' + fontfilename + '.woff', params = '-v ' + VERSION + ' -m ../' + fontbase + f + '-WOFF-metadata.xml'),
+            #script = 'mlym',
+            package = p,
+            fret = fret(params = '')
         )

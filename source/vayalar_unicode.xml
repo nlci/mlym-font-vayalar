@@ -1,107 +1,15 @@
 <?xml version="1.0"?>
 <font>
 <glyphs>
-<glyph PSName='u0020' UID='0020'><base UID='0020' font='1'/></glyph>
-<glyph PSName='u0021' UID='0021'><base UID='0021' font='1'/></glyph>
-<glyph PSName='u0022' UID='0022'><base UID='0022' font='1'/></glyph>
-<glyph PSName='u0023' UID='0023'><base UID='0023' font='1'/></glyph>
-<glyph PSName='u0024' UID='0024'><base UID='0024' font='1'/></glyph>
-<glyph PSName='u0025' UID='0025'><base UID='0025' font='1'/></glyph>
-<glyph PSName='u0026' UID='0026'><base UID='0026' font='1'/></glyph>
-<glyph PSName='u0027' UID='0027'><base UID='0027' font='1'/></glyph>
-<glyph PSName='u0028' UID='0028'><base UID='0028' font='1'/></glyph>
-<glyph PSName='u0029' UID='0029'><base UID='0029' font='1'/></glyph>
-<glyph PSName='u002A' UID='002A'><base UID='002A' font='1'/></glyph>
-<glyph PSName='u002B' UID='002B'><base UID='002B' font='1'/></glyph>
-<glyph PSName='u002C' UID='002C'><base UID='002C' font='1'/></glyph>
-<glyph PSName='u002D' UID='002D'><base UID='002D' font='1'/></glyph>
-<glyph PSName='u002E' UID='002E'><base UID='002E' font='1'/></glyph>
-<glyph PSName='u002F' UID='002F'><base UID='002F' font='1'/></glyph>
-<glyph PSName='u0030' UID='0030'><base UID='0030' font='1'/></glyph>
-<glyph PSName='u0031' UID='0031'><base UID='0031' font='1'/></glyph>
-<glyph PSName='u0032' UID='0032'><base UID='0032' font='1'/></glyph>
-<glyph PSName='u0033' UID='0033'><base UID='0033' font='1'/></glyph>
-<glyph PSName='u0034' UID='0034'><base UID='0034' font='1'/></glyph>
-<glyph PSName='u0035' UID='0035'><base UID='0035' font='1'/></glyph>
-<glyph PSName='u0036' UID='0036'><base UID='0036' font='1'/></glyph>
-<glyph PSName='u0037' UID='0037'><base UID='0037' font='1'/></glyph>
-<glyph PSName='u0038' UID='0038'><base UID='0038' font='1'/></glyph>
-<glyph PSName='u0039' UID='0039'><base UID='0039' font='1'/></glyph>
-<glyph PSName='u003A' UID='003A'><base UID='003A' font='1'/></glyph>
-<glyph PSName='u003B' UID='003B'><base UID='003B' font='1'/></glyph>
-<glyph PSName='u003C' UID='003C'><base UID='003C' font='1'/></glyph>
-<glyph PSName='u003D' UID='003D'><base UID='003D' font='1'/></glyph>
-<glyph PSName='u003E' UID='003E'><base UID='003E' font='1'/></glyph>
-<glyph PSName='u003F' UID='003F'><base UID='003F' font='1'/></glyph>
-<glyph PSName='u0040' UID='0040'><base UID='0040' font='1'/></glyph>
-<glyph PSName='u0041' UID='0041'><base UID='0041' font='1'/></glyph>
-<glyph PSName='u0042' UID='0042'><base UID='0042' font='1'/></glyph>
-<glyph PSName='u0043' UID='0043'><base UID='0043' font='1'/></glyph>
-<glyph PSName='u0044' UID='0044'><base UID='0044' font='1'/></glyph>
-<glyph PSName='u0045' UID='0045'><base UID='0045' font='1'/></glyph>
-<glyph PSName='u0046' UID='0046'><base UID='0046' font='1'/></glyph>
-<glyph PSName='u0047' UID='0047'><base UID='0047' font='1'/></glyph>
-<glyph PSName='u0048' UID='0048'><base UID='0048' font='1'/></glyph>
-<glyph PSName='u0049' UID='0049'><base UID='0049' font='1'/></glyph>
-<glyph PSName='u004A' UID='004A'><base UID='004A' font='1'/></glyph>
-<glyph PSName='u004B' UID='004B'><base UID='004B' font='1'/></glyph>
-<glyph PSName='u004C' UID='004C'><base UID='004C' font='1'/></glyph>
-<glyph PSName='u004D' UID='004D'><base UID='004D' font='1'/></glyph>
-<glyph PSName='u004E' UID='004E'><base UID='004E' font='1'/></glyph>
-<glyph PSName='u004F' UID='004F'><base UID='004F' font='1'/></glyph>
-<glyph PSName='u0050' UID='0050'><base UID='0050' font='1'/></glyph>
-<glyph PSName='u0051' UID='0051'><base UID='0051' font='1'/></glyph>
-<glyph PSName='u0052' UID='0052'><base UID='0052' font='1'/></glyph>
-<glyph PSName='u0053' UID='0053'><base UID='0053' font='1'/></glyph>
-<glyph PSName='u0054' UID='0054'><base UID='0054' font='1'/></glyph>
-<glyph PSName='u0055' UID='0055'><base UID='0055' font='1'/></glyph>
-<glyph PSName='u0056' UID='0056'><base UID='0056' font='1'/></glyph>
-<glyph PSName='u0057' UID='0057'><base UID='0057' font='1'/></glyph>
-<glyph PSName='u0058' UID='0058'><base UID='0058' font='1'/></glyph>
-<glyph PSName='u0059' UID='0059'><base UID='0059' font='1'/></glyph>
-<glyph PSName='u005A' UID='005A'><base UID='005A' font='1'/></glyph>
-<glyph PSName='u005B' UID='005B'><base UID='005B' font='1'/></glyph>
-<glyph PSName='u005C' UID='005C'><base UID='005C' font='1'/></glyph>
-<glyph PSName='u005D' UID='005D'><base UID='005D' font='1'/></glyph>
-<glyph PSName='u005E' UID='005E'><base UID='005E' font='1'/></glyph>
-<glyph PSName='u005F' UID='005F'><base UID='005F' font='1'/></glyph>
-<glyph PSName='u0060' UID='0060'><base UID='0060' font='1'/></glyph>
-<glyph PSName='u0061' UID='0061'><base UID='0061' font='1'/></glyph>
-<glyph PSName='u0062' UID='0062'><base UID='0062' font='1'/></glyph>
-<glyph PSName='u0063' UID='0063'><base UID='0063' font='1'/></glyph>
-<glyph PSName='u0064' UID='0064'><base UID='0064' font='1'/></glyph>
-<glyph PSName='u0065' UID='0065'><base UID='0065' font='1'/></glyph>
-<glyph PSName='u0066' UID='0066'><base UID='0066' font='1'/></glyph>
-<glyph PSName='u0067' UID='0067'><base UID='0067' font='1'/></glyph>
-<glyph PSName='u0068' UID='0068'><base UID='0068' font='1'/></glyph>
-<glyph PSName='u0069' UID='0069'><base UID='0069' font='1'/></glyph>
-<glyph PSName='u006A' UID='006A'><base UID='006A' font='1'/></glyph>
-<glyph PSName='u006B' UID='006B'><base UID='006B' font='1'/></glyph>
-<glyph PSName='u006C' UID='006C'><base UID='006C' font='1'/></glyph>
-<glyph PSName='u006D' UID='006D'><base UID='006D' font='1'/></glyph>
-<glyph PSName='u006E' UID='006E'><base UID='006E' font='1'/></glyph>
-<glyph PSName='u006F' UID='006F'><base UID='006F' font='1'/></glyph>
-<glyph PSName='u0070' UID='0070'><base UID='0070' font='1'/></glyph>
-<glyph PSName='u0071' UID='0071'><base UID='0071' font='1'/></glyph>
-<glyph PSName='u0072' UID='0072'><base UID='0072' font='1'/></glyph>
-<glyph PSName='u0073' UID='0073'><base UID='0073' font='1'/></glyph>
-<glyph PSName='u0074' UID='0074'><base UID='0074' font='1'/></glyph>
-<glyph PSName='u0075' UID='0075'><base UID='0075' font='1'/></glyph>
-<glyph PSName='u0076' UID='0076'><base UID='0076' font='1'/></glyph>
-<glyph PSName='u0077' UID='0077'><base UID='0077' font='1'/></glyph>
-<glyph PSName='u0078' UID='0078'><base UID='0078' font='1'/></glyph>
-<glyph PSName='u0079' UID='0079'><base UID='0079' font='1'/></glyph>
-<glyph PSName='u007A' UID='007A'><base UID='007A' font='1'/></glyph>
-<glyph PSName='u007B' UID='007B'><base UID='007B' font='1'/></glyph>
-<glyph PSName='u007C' UID='007C'><base UID='007C' font='1'/></glyph>
-<glyph PSName='u007D' UID='007D'><base UID='007D' font='1'/></glyph>
-<glyph PSName='u007E' UID='007E'><base UID='007E' font='1'/></glyph>
+<!--
 <glyph PSName='u0D4D_u0D2F'><base UID='F079'><scale x="1.2" y="1.2"/></base></glyph>
 <glyph PSName='u0D2A_u0D4D_u0D2A'><base UID='F0B8'><scale x="1.2" y="1.2"/></base></glyph>
 <glyph PSName='u0D33_u0D4D_U0D33'><base UID='F0C5'><scale x="1.2" y="1.2"/></base></glyph>
 <glyph PSName='u0D02' UID='0D02'><base UID="F023"><scale x="1.2" y="1.2"/></base><base UID='F077'><scale x="1.2" y="1.2"/></base></glyph>
 <glyph PSName='u0D03' UID='0D03'><base UID='F078'><scale x="1.2" y="1.2"/></base></glyph>
+-->
 <glyph PSName='u0D05' UID='0D05'><base UID='F041'><scale x="1.2" y="1.2"/></base></glyph>
+<!--
 <glyph PSName='u0D06' UID='0D06'><base UID='F042'><scale x="1.2" y="1.2"/></base></glyph>
 <glyph PSName='u0D07' UID='0D07'><base UID='F043'><scale x="1.2" y="1.2"/></base></glyph>
 <glyph PSName='u0D08' UID='0D08'><base UID="F043"><scale x="1.2" y="1.2"/></base><base UID='F075'><scale x="1.2" y="1.2"/></base></glyph>
@@ -252,11 +160,6 @@
 <glyph PSName='u0D7E' UID='0D7E'><base UID='F0C4'><scale x="1.2" y="1.2"/></base></glyph>
 <glyph PSName='u0D15_u0D4D_u0D24'><base UID='F0E0'><scale x="1.2" y="1.2"/></base></glyph>
 <glyph PSName='u0D1E_u0D4D_u0D1E'><base UID='F0AA'><scale x="1.2" y="1.2"/></base></glyph>
-
-<glyph PSName='u200D' UID='200D'><base UID='F020/'/><advance width="0"/></glyph>
-<glyph PSName='u200C' UID='200C'><base UID='F020/'/><advance width="0"/></glyph>
-<glyph PSName='u200B' UID='200B'><base UID='F020/'/><advance width="0"/></glyph>
-<glyph PSName='u2060' UID='2060'><base UID='F020/'/><advance width="0"/></glyph>
-<glyph PSName='u00A0' UID='00A0'><base UID='F020/'/></glyph>
-
-</glyphs></font>
+-->
+</glyphs>
+</font>

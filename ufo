@@ -1,0 +1,28 @@
+#!/bin/bash
+
+faces=(Vayalar Malabar)
+styles=(Regular Bold Italic "Bold Italic")
+desc_long="Pan Malayalam font designed to support all the languages using the Malayalam script."
+
+pushd source/archive
+for ttf in ../../../../mappings/winscript/fonts/*.ttf
+do
+    echo "applying legacy OFL to file from $ttf"
+    $HOME/script/zind/bin/legacy-ofl $ttf $(basename $ttf)
+done
+popd
+
+export nlci=$HOME/script/tools
+source ${nlci}/prepare.bash
+
+source ${nlci}/addchars.bash
+
+source ${nlci}/metadata.bash
+
+echo "done producing main UFO sources"
+
+# handle an extra face with less styles
+faces=(Kalyani)
+styles=(Regular Italic)
+
+echo "done producing UFO sources"
