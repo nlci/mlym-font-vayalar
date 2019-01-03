@@ -5,7 +5,7 @@ from addcharslib import *
 def modifySource(sfd, f, s, sn):
     print sfd
 
-    workshop = 1.0
+    workshop = 1.2
     upm = 1000.0/2048.0
     scale = '-s ' + str(upm/workshop) + ' '
 
