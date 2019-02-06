@@ -1,9 +1,9 @@
-#!/bin/python
+#!/bin/python3
 
 from addcharslib import *
 
 def modifySource(sfd, f, s, sn):
-    print sfd
+    print(sfd)
 
     workshop = 1.2
     upm = 1000.0/2048.0
