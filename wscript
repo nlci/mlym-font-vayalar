@@ -84,7 +84,7 @@ for f in faces:
         snf = '-' + sn.replace(' ', '')
         fontfilename = tag + f + snf
         font(target = process(fontfilename + '.ttf',
-                #cmd(psfix + ' ${DEP} ${TGT}'),
+                cmd('psfchangettfglyphnames ${SRC} ${DEP} ${TGT}', [fontbase + f + snf + '.ufo']),
                 name(tag + ' ' + f, lang='en-US', subfamily=(sn))
                 ),
             source = fontbase + f + snf + '.ufo',
@@ -105,3 +105,6 @@ for f in faces:
             package = p,
             fret = fret(params = '')
         )
+
+def configure(ctx):
+    ctx.find_program('psfchangettfglyphnames')
