@@ -15,8 +15,6 @@ popd
 export nlci=$HOME/script/tools
 source ${nlci}/prepare.bash
 
-source ${nlci}/addchars.bash
-
 source ${nlci}/metadata.bash
 
 echo "done producing main UFO sources"
