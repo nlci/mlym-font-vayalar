@@ -1,0 +1,41 @@
+languagesystem DFLT dflt;
+languagesystem mlm2 dflt;
+
+# GSUB
+
+
+# For debugging the string "RenderingUnknown" will be rendered as "RenderingOpenType"
+# if the app is using OpenType to render the text.
+lookup FontCheck_Unknow {
+  lookupflag IgnoreMarks;
+    sub [U n k o w ] by [O p e T y];
+} FontCheck_Unknow;
+
+lookup FontCheck_n {
+  lookupflag IgnoreMarks;
+    sub n by p e;
+} FontCheck_n;
+
+lookup FontCheck {
+  lookupflag IgnoreMarks;
+    sub [R] e n d e r i n g
+      U' lookup FontCheck_Unknow
+      n' lookup FontCheck_Unknow
+      k' lookup FontCheck_Unknow
+      n'
+      o' lookup FontCheck_Unknow
+      w' lookup FontCheck_Unknow
+      n' lookup FontCheck_n;
+} FontCheck;
+
+feature ccmp {
+    lookup FontCheck;
+} ccmp;
+
+# GPOS
+
+
+table GDEF {
+  # GlyphClassDef @GDEF_bases, , @GDEF_marks, ;
+  GlyphClassDef @GDEF_bases, , , ;
+} GDEF;
