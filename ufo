@@ -2,7 +2,7 @@
 
 faces=(Vayalar Malabar)
 styles=(Regular Bold Italic "Bold Italic")
-desc_long="Pan Malayalam font designed to support all the languages using the Malayalam script."
+desc_long="Malayalam script font for all languages using the Malayalam script"
 
 export nlci=$HOME/script/tools
 export src=source
