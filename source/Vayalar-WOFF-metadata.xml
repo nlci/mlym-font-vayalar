@@ -9,27 +9,14 @@
       role="NLCI designers and font engineers"
     />
   </credits>
-  <description>
+  <description url="http://www.nlci.in/fonts/">
     <text lang="en">
       Pan Malayalam font designed to support all the languages using the Malayalam script.
-      
-      ChangeLog
-      ---------
-      (This should list both major and minor changes, most recent first.)
-      
-      Unreleased
-      - Add many Latin and Devanagari characters
-      - Latin glyphs are from Gentium Book Basic (https://software.sil.org/gentium/) scaled 83%
-      - Indian Rupee Sign is from Annapurna SIL (https://software.sil.org/annapurna/) scaled 83%
-      29 Aug 2018 (Dev NLCI) NLCI Malayalam fonts version 0.101
-      - Fixed chillunn
-      30 Jun 2015 (Dev NLCI) NLCI Malayalam fonts version 0.100
-      - Latin glyphs are from Charis SIL (http://scripts.sil.org/CharisSILfont)
     </text>
   </description>
   <license url="http://scripts.sil.org/OFL" id="org.sil.ofl.1.1">
     <text lang="en">
-      This Font Software is Copyright (c) 2009-2021, NLCI (http://www.nlci.in/fonts/)
+      This Font Software is Copyright (c) 2009-2022, NLCI (http://www.nlci.in/fonts/)
       with Reserved Font Names "Vayalar" and "Kalyani" and "Malabar" and "NLCI".
       Latin glyphs Copyright (c) 2003-2019, SIL International (http://www.sil.org/)
       with Reserved Font Names "Gentium" and "SIL".
@@ -131,7 +118,7 @@
   </license>
   <copyright>
     <text lang="en">
-      This Font Software is Copyright (c) 2009-2021, NLCI (http://www.nlci.in/fonts/)
+      This Font Software is Copyright (c) 2009-2022, NLCI (http://www.nlci.in/fonts/)
       with Reserved Font Names "Vayalar" and "Kalyani" and "Malabar" and "NLCI".
       Latin glyphs Copyright (c) 2003-2019, SIL International (http://www.sil.org/)
       with Reserved Font Names "Gentium" and "SIL".
