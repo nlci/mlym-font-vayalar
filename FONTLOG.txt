@@ -21,7 +21,7 @@ Unreleased
 29 Aug 2018 (Dev NLCI) NLCI Malayalam fonts version 0.101
 - Fixed chillunn
 30 Jun 2015 (Dev NLCI) NLCI Malayalam fonts version 0.100
-- Latin glyphs are from Charis SIL (http://scripts.sil.org/CharisSILfont)
+- Latin glyphs are from Charis SIL (https://software.sil.org/charis/)
 
 Acknowledgements
 ----------------
